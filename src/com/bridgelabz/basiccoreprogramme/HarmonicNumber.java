@@ -3,12 +3,12 @@ package com.bridgelabz.basiccoreprogramme;
 public class HarmonicNumber {
 
 	public static void main(String[] args) {
-		int number = 500;
+		int number = 00;
 		double harmonicSum = 1.0;
 		
 		if(number == 0) {
 			System.err.println("Nth value cannot be zero!!!!!!!");
-			System.exit(1);
+			System.exit(0);
 		}
 		
 		for(double index = 2; index <= number; index++) {
