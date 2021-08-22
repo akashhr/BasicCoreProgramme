@@ -15,8 +15,6 @@ public class FlipCoin {
 		  
 		  System.out.println("Head count percentage is: "+headCountPercent);
 		  System.out.println("Tail count percentage is: "+tailCountPercent);
-	
-		
 	}
 
 }
