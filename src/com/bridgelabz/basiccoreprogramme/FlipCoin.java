@@ -2,15 +2,15 @@ package com.bridgelabz.basiccoreprogramme;
 
 public class FlipCoin {
 	public static void main(String[] args) {
-		  int TOTAL_COIN_FLIP = 10;
+		  int totalCoinFlip = 10;
 		  int headCount = 0;
 		  
-		  for(int index = 0; index < TOTAL_COIN_FLIP; index++ ) {
+		  for(int index = 0; index < totalCoinFlip; index++ ) {
 			  if(Math.random() > 0.5) {
 				  headCount++;  
 			  }
 		  }
-		  int headCountPercent = (headCount * 100)/TOTAL_COIN_FLIP;
+		  int headCountPercent = (headCount * 100)/totalCoinFlip;
 		  int tailCountPercent = 100 - headCountPercent;
 		  
 		  System.out.println("Head count percentage is: "+headCountPercent);
